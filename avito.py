@@ -15,9 +15,10 @@ TOKEN = tokens["token"]
 CHAT_ID = tokens["chat_id"]
 SEND_URL = f'https://api.telegram.org/bot{TOKEN}/sendMessage'
 
+houses_list = []
+houses_sended_list = []
  
 def main():
-    houses_list = []
     driver.get(URL)
     sleep(PAUSE_DURATION_SECONDS)
     # driver.find_element(by=By.CLASS_NAME, value='iva-item-body-KLUuy')
@@ -28,10 +29,12 @@ def main():
     for house in houses:
         public_time = house.find("div", class_="date-text-KmWDf text-text-LurtD text-size-s-BxGpL text-color-noaccent-P1Rfs").text
         a = house.find("a").get("href")
-        if "мин" in public_time:
+        if "час" in public_time:
             link_house_result = f"https://www.avito.ru/{a}"
             houses_list.append(link_house_result)
-            send_list(link_house_result)
+            if (link_house_result in houses_list & link_house_result not in houses_sended_list):
+                send_list(link_house_result)
+                houses_sended_list.append(link_house_result)
 #     get_phone_number(houses_list)
 
 
