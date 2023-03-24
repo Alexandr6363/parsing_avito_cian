@@ -32,7 +32,7 @@ def main():
         if "час" in public_time:
             link_house_result = f"https://www.avito.ru/{a}"
             houses_list.append(link_house_result)
-            if (link_house_result in houses_list & link_house_result not in houses_sended_list):
+            if (link_house_result in houses_list) & (link_house_result not in houses_sended_list):
                 send_list(link_house_result)
                 houses_sended_list.append(link_house_result)
 #     get_phone_number(houses_list)
