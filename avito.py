@@ -41,7 +41,7 @@ def main():
                 send_list(link_house_result)
                 old_data.append(link_object)
         data_file.seek(0)
-        json.dump(old_data, data_file)
+        json.dump(old_data, data_file, indent=4)
         data_file.truncate()
 
 
