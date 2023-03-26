@@ -11,7 +11,7 @@ import time
 import json
 
 # print(tokens)
-URL = 'https://www.avito.ru/samarskaya_oblast/doma_dachi_kottedzhi/prodam-ASgBAgICAUSUA9AQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLJSKk4sS02JL05NLErOULKuBQQAAP__IWhYLCkAAAA&f=ASgBAQECAUSUA9AQA0DYCDTMWcpZzlmQvQ5E9qTRAfSk0QHypNEB8KTRAcq9DhSwnJQCAUXGmgwWeyJmcm9tIjowLCJ0byI6OTAwMDAwfQ&s=104'
+URL = 'https://www.avito.ru/samarskaya_oblast/doma_dachi_kottedzhi/prodam-ASgBAgICAUSUA9AQ?f=ASgBAQECAUSUA9AQA0DYCDTMWcpZzlmQvQ5E9qTRAfSk0QHypNEB8KTRAcq9DhSwnJQCAUXGmgwXeyJmcm9tIjowLCJ0byI6MTIwMDAwMH0&s=104'
 PAUSE_DURATION_SECONDS = 5
 TOKEN = tokens["token"]
 CHAT_ID = tokens["chat_id"]
