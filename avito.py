@@ -2,6 +2,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import requests
@@ -51,7 +52,10 @@ if __name__ == '__main__':
     while (True):
         try:
             service = Service(executable_path=ChromeDriverManager().install())
-            driver = webdriver.Chrome(service=service)
+            driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
+                        #   for windows:
+                        # driver = webdriver.Chrome(service=service)
+            
             main()
         except Exception as e:
             print(e)
