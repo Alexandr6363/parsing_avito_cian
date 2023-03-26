@@ -28,19 +28,21 @@ def main():
     # driver.find_element(by=By.CLASS_NAME, value='iva-item-body-KLUuy')
     soup = BeautifulSoup(driver.page_source, "lxml")
     houses = soup.find_all("div", class_="iva-item-body-KLUuy")
-    with open('data.txt') as old_data_file:
-        old_data = json.loads(old_data_file.read())["link"]
-    for house in houses:
-        a = house.find("a").get("href")
-        link_house_result = f"https://www.avito.ru/{a}"
-        link_object = {
-            "link_of_house": link_house_result
-            }
-        if link_object not in old_data:
-            send_list(link_house_result)
-            old_data.append(link_object)
-    with open('data.txt', 'a') as file:
-        json.dump(old_data, file)
+    with open('data.txt', "r+") as data_file:
+        if data_file:
+            old_data = json.load(data_file)
+        for house in houses:
+            a = house.find("a").get("href")
+            link_house_result = f"https://www.avito.ru/{a}"
+            link_object = {
+                "link_of_house": link_house_result
+                }
+            if link_object not in old_data:
+                send_list(link_house_result)
+                old_data.append(link_object)
+        data_file.seek(0)
+        json.dump(old_data, data_file)
+        data_file.truncate()
 
 
 def send_list(house):
@@ -60,6 +62,6 @@ if __name__ == '__main__':
         except Exception as e:
             print(e)
         finally:
-            time.sleep(10)
+            time.sleep(1)
             driver.quit()
         time.sleep(1000)
