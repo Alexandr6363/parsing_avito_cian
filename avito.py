@@ -33,7 +33,7 @@ def main():
             old_data = json.load(data_file)
         for house in houses:
             a = house.find("a").get("href")
-            link_house_result = f"https://www.avito.ru/{a}"
+            link_house_result = f"https://www.avito.ru{a}"
             link_object = {
                 "link_of_house": link_house_result
                 }
