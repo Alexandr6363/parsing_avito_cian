@@ -11,7 +11,7 @@ import time
 import json
 
 # print(tokens)
-URL = 'https://www.avito.ru/samarskaya_oblast/doma_dachi_kottedzhi/prodam-ASgBAgICAUSUA9AQ?f=ASgBAQECAUSUA9AQA0DYCDTMWcpZzlmQvQ5E9qTRAfSk0QHypNEB8KTRAcq9DhSwnJQCAUXGmgwXeyJmcm9tIjowLCJ0byI6MTIwMDAwMH0&s=104'
+URL = 'https://www.avito.ru/samarskaya_oblast/doma_dachi_kottedzhi/prodam-ASgBAgICAUSUA9AQ?f=ASgBAQECAUSUA9AQA0DYCDTMWcpZzlmQvQ5E9qTRAfSk0QHypNEB8KTRAcq9DiT8iYcDsJyUAgFFxpoMF3siZnJvbSI6MCwidG8iOjEyMDAwMDB9&s=104'
 PAUSE_DURATION_SECONDS = 5
 TOKEN = tokens["token"]
 CHAT_ID = tokens["chat_id"]
@@ -33,7 +33,7 @@ def main():
             old_data = json.load(data_file)
         for house in houses:
             a = house.find("a").get("href")
-            link_house_result = f"https://www.avito.ru/{a}"
+            link_house_result = f"https://www.avito.ru{a}"
             link_object = {
                 "link_of_house": link_house_result
                 }
