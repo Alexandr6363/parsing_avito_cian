@@ -12,7 +12,7 @@ import json
 
 
 URL_CIAN = 'https://samara.cian.ru/cat.php?currency=2&deal_type=sale&drainage=1&electricity=1&engine_version=2&gas=1&is_dacha=0&maxprice=1500000&object_type%5B0%5D=1&offer_type=suburban&region=4608&sort=creation_date_desc&water=1&wc_site=1'
-URL = 'https://www.avito.ru/samarskaya_oblast/doma_dachi_kottedzhi/prodam-ASgBAgICAUSUA9AQ?f=ASgBAQECAUSUA9AQA0DYCDTMWcpZzlmQvQ5E9qTRAfSk0QHypNEB8KTRAcq9DhSwnJQCAUXGmgwXeyJmcm9tIjowLCJ0byI6MTIwMDAwMH0&s=104'
+URL = 'https://www.avito.ru/samarskaya_oblast/doma_dachi_kottedzhi/prodam/do-1500000-rubley-ASgBAgECAUSUA9AQAUXGmgwXeyJmcm9tIjowLCJ0byI6MTUwMDAwMH0?f=ASgBAQECAUSUA9AQAkDYCDTMWcpZzlmQvQ5E9qTRAfSk0QHypNEB8KTRAQFFxpoMF3siZnJvbSI6MCwidG8iOjE1MDAwMDB9&s=104'
 PAUSE_DURATION_SECONDS = 5
 TOKEN = tokens["token"]
 CHAT_ID = tokens["chat_id"]
