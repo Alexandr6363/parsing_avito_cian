@@ -1,0 +1,86 @@
+[
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285911352/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285902639/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285876221/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285771314/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285700237/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285639152/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285618806/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285520123/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285462739/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285426538/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285355146/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285354185/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285276054/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285257431/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285024819/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/284868788/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/284732722/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/284676220/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/284506715/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/284480898/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/284318077/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/284178166/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/284144131/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/283899757/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/283695728/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/283684801/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/283031818/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/283022782/"
+    }
+]

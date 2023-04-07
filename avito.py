@@ -10,33 +10,49 @@ from python_tokens import tokens
 import time
 import json
 
-# print(tokens)
-URL = 'https://www.avito.ru/samarskaya_oblast/doma_dachi_kottedzhi/prodam-ASgBAgICAUSUA9AQ?f=ASgBAQECAUSUA9AQA0DYCDTMWcpZzlmQvQ5E9qTRAfSk0QHypNEB8KTRAcq9DiT8iYcDsJyUAgFFxpoMF3siZnJvbSI6MCwidG8iOjEyMDAwMDB9&s=104'
+
+URL_CIAN = 'https://samara.cian.ru/cat.php?currency=2&deal_type=sale&drainage=1&electricity=1&engine_version=2&gas=1&is_dacha=0&maxprice=1500000&object_type%5B0%5D=1&offer_type=suburban&region=4608&sort=creation_date_desc&water=1&wc_site=1'
+URL = 'https://www.avito.ru/samarskaya_oblast/doma_dachi_kottedzhi/prodam-ASgBAgICAUSUA9AQ?f=ASgBAQECAUSUA9AQA0DYCDTMWcpZzlmQvQ5E9qTRAfSk0QHypNEB8KTRAcq9DhSwnJQCAUXGmgwXeyJmcm9tIjowLCJ0byI6MTIwMDAwMH0&s=104'
 PAUSE_DURATION_SECONDS = 5
 TOKEN = tokens["token"]
 CHAT_ID = tokens["chat_id"]
 SEND_URL = f'https://api.telegram.org/bot{TOKEN}/sendMessage'
 
-houses_list = []
-houses_sended_list = []
 
-
-
-def main():
+def avito_scan(driver):
     driver.get(URL)
     sleep(PAUSE_DURATION_SECONDS)
-    # driver.find_element(by=By.CLASS_NAME, value='iva-item-body-KLUuy')
     soup = BeautifulSoup(driver.page_source, "lxml")
     houses = soup.find_all("div", class_="iva-item-body-KLUuy")
-    with open('data.txt', "r+") as data_file:
+    data_list = []
+    for house in houses:
+        a = house.find("a").get("href")
+        link_house_result = f"https://www.avito.ru{a}"
+        data_list.append(link_house_result)
+    write_and_send(data_list, 'data.txt')
+
+
+
+def cian_scan(driver):
+    driver.get(URL_CIAN)
+    sleep(PAUSE_DURATION_SECONDS)
+    soup = BeautifulSoup(driver.page_source, "lxml")
+    houses = soup.find_all("a", class_="_93444fe79c--link--eoxce")
+    data_list = []
+    for house in houses:
+        link_house_result = house.get("href")
+        data_list.append(link_house_result)
+    write_and_send(data_list, 'data_cian.txt')
+
+
+def write_and_send(data_list, file):
+    with open(file, "r+") as data_file:
         if data_file:
             old_data = json.load(data_file)
-        for house in houses:
-            a = house.find("a").get("href")
-            link_house_result = f"https://www.avito.ru{a}"
+        for link_house_result in data_list:
             link_object = {
                 "link_of_house": link_house_result
-                }
+            }
             if link_object not in old_data:
                 send_list(link_house_result)
                 old_data.append(link_object)
@@ -50,18 +66,22 @@ def send_list(house):
                   'chat_id': CHAT_ID, 'text': str(house)})
 
 
+def main(scan_function):
+    try:
+        driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
+                    #   for windows:
+                    # driver = webdriver.Chrome(service=service)            
+        scan_function(driver)
+    except Exception as e:
+        print(e)
+    finally:
+        time.sleep(1)
+        driver.quit()
+    time.sleep(500)
+
+
 if __name__ == '__main__':
     while (True):
-        try:
-            service = Service(executable_path=ChromeDriverManager().install())
-            driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
-                        #   for windows:
-                        # driver = webdriver.Chrome(service=service)
-            
-            main()
-        except Exception as e:
-            print(e)
-        finally:
-            time.sleep(1)
-            driver.quit()
-        time.sleep(1000)
+        service = Service(executable_path=ChromeDriverManager().install())
+        main(avito_scan)
+        main(cian_scan)
