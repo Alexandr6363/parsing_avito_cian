@@ -24,21 +24,13 @@ def avito_scan(driver):
     sleep(PAUSE_DURATION_SECONDS)
     soup = BeautifulSoup(driver.page_source, "lxml")
     houses = soup.find_all("div", class_="iva-item-body-KLUuy")
-    with open('data.txt', "r+") as data_file:
-        if data_file:
-            old_data = json.load(data_file)
-        for house in houses:
-            a = house.find("a").get("href")
-            link_house_result = f"https://www.avito.ru{a}"
-            link_object = {
-                "link_of_house": link_house_result
-                }
-            if link_object not in old_data:
-                send_list(link_house_result)
-                old_data.append(link_object)
-        data_file.seek(0)
-        json.dump(old_data, data_file, indent=4)
-        data_file.truncate()
+    data_list = []
+    for house in houses:
+        a = house.find("a").get("href")
+        link_house_result = f"https://www.avito.ru{a}"
+        data_list.append(link_house_result)
+    write_and_send(data_list, 'data.txt')
+
 
 
 def cian_scan(driver):
@@ -46,11 +38,18 @@ def cian_scan(driver):
     sleep(PAUSE_DURATION_SECONDS)
     soup = BeautifulSoup(driver.page_source, "lxml")
     houses = soup.find_all("a", class_="_93444fe79c--link--eoxce")
-    with open('data_cian.txt', "r+") as data_file:
+    data_list = []
+    for house in houses:
+        link_house_result = house.get("href")
+        data_list.append(link_house_result)
+    write_and_send(data_list, 'data_cian.txt')
+
+
+def write_and_send(data_list, file):
+    with open(file, "r+") as data_file:
         if data_file:
             old_data = json.load(data_file)
-        for house in houses:
-            link_house_result = house.get("href")
+        for link_house_result in data_list:
             link_object = {
                 "link_of_house": link_house_result
             }
@@ -78,7 +77,7 @@ def main(scan_function):
     finally:
         time.sleep(1)
         driver.quit()
-    time.sleep(50)
+    time.sleep(500)
 
 
 if __name__ == '__main__':
