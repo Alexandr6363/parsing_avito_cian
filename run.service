@@ -1,0 +1,15 @@
+[Unit]
+Description=My Script Service
+
+[Service]
+WorkingDirectory=/home/alexr/VSprojects/parsing_avito
+ExecStart=source venv/bin/activate && python3 avito.py
+Restart=always
+RestartSec=30 #перезагрузка сервиса, если вдруг упадет.
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=my-python-app
+#Environment=NODE_ENV=production PORT=3080 (это для nodejs, но можете тоже поиграть, если надо).
+
+[Install]
+WantedBy=multi-user.target

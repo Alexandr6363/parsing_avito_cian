@@ -81,7 +81,7 @@ def main(scan_function):
 
 
 if __name__ == '__main__':
+    service = Service(executable_path=ChromeDriverManager().install())
     while (True):
-        service = Service(executable_path=ChromeDriverManager().install())
         main(avito_scan)
         main(cian_scan)

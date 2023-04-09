@@ -1066,5 +1066,233 @@
     },
     {
         "link_of_house": "https://www.avito.ru/isakly/doma_dachi_kottedzhi/dom_60m_na_uchastke_15sot._2844559418"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_krasnyy_yar/doma_dachi_kottedzhi/dom_42m_na_uchastke_21sot._2009461221"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/bolshaya_glushitsa/doma_dachi_kottedzhi/dom_738m_na_uchastke_768sot._2815579079"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/hvorostyanka/doma_dachi_kottedzhi/dom_98m_na_uchastke_10sot._2687951132"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/chelno-vershiny/doma_dachi_kottedzhi/dom_73m_na_uchastke_301sot._2743708945"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/shigony/doma_dachi_kottedzhi/dom_70m_na_uchastke_5sot._2636771535"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/balasheyka/doma_dachi_kottedzhi/dom_100m_na_uchastke_11sot._2703930265"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_krasnoarmeyskoe/doma_dachi_kottedzhi/dom_51m_na_uchastke_23sot._2484576420"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/roschinskiy/doma_dachi_kottedzhi/dom_601m_na_uchastke_7sot._2524105762"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/shigony/doma_dachi_kottedzhi/dom_46m_na_uchastke_50sot._2571829432"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/borskoe/doma_dachi_kottedzhi/dom_58m_na_uchastke_9sot._2291853846"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/roschinskiy/doma_dachi_kottedzhi/dom_56_m_na_uchastke_6_ga_936808502"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/roschinskiy/doma_dachi_kottedzhi/dom_90m_na_uchastke_25sot._2964157986"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/syzran/doma_dachi_kottedzhi/dom_623m_na_uchastke_12sot._2963409743"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/osinki/doma_dachi_kottedzhi/dom_481m_na_uchastke_12sot._3057987439"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/klyavlino/doma_dachi_kottedzhi/dom_39m_na_uchastke_24sot._2141626440"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/kurumoch/doma_dachi_kottedzhi/dom_553_m_na_uchastke_1_sot._2342300086"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/hvorostyanka/doma_dachi_kottedzhi/dom_60m_na_uchastke_6sot._2666491417"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pohvistnevo/doma_dachi_kottedzhi/dom_60m_na_uchastke_5sot._2821536958"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/tolyatti/doma_dachi_kottedzhi/dom_84_m_na_uchastke_36_sot._2574094232"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_krasnoarmeyskoe/doma_dachi_kottedzhi/dom_90m_na_uchastke_10sot._2868942108"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/chapaevsk/doma_dachi_kottedzhi/kottedzh_100m_na_uchastke_10sot._2138147563"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/zhigulevsk/doma_dachi_kottedzhi/dom_125m_na_uchastke_15sot._2551851659"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_krasnyy_yar/doma_dachi_kottedzhi/dom_50m_na_uchastke_40sot._2889344203"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_usole/doma_dachi_kottedzhi/dom_32m_na_uchastke_165sot._2544955661"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/privolzhe/doma_dachi_kottedzhi/kottedzh_80_m_na_uchastke_6_sot._1603176013"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/hryaschevka/doma_dachi_kottedzhi/dom_90m_na_uchastke_45sot._2578152998"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/suhodol/doma_dachi_kottedzhi/dom_70m_na_uchastke_50sot._2345123118"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_krasnoarmeyskoe/doma_dachi_kottedzhi/dom_64_m_na_uchastke_87_sot._1624319233"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/syzran/doma_dachi_kottedzhi/dom_120m_na_uchastke_10sot._1362829596"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/kinel-cherkassy/doma_dachi_kottedzhi/dom_84m_na_uchastke_11sot._2572879839"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/privolzhe/doma_dachi_kottedzhi/dom_684m_na_uchastke_14sot._2908204256"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pestravka/doma_dachi_kottedzhi/dom_59m_na_uchastke_10sot._2287809039"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pestravka/doma_dachi_kottedzhi/dom_42_m_na_uchastke_22_sot._2807293279"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/elhovka/doma_dachi_kottedzhi/dom_60m_na_uchastke_13sot._1919796273"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/bogatoe/doma_dachi_kottedzhi/dom_62_m_na_uchastke_10_sot._2945465844"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_neftegorsk/doma_dachi_kottedzhi/kottedzh_78m_na_uchastke_10sot._2448063359"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/borskoe/doma_dachi_kottedzhi/dom_67m_na_uchastke_15sot._2788001450"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_krasnyy_yar/doma_dachi_kottedzhi/dom_80m_na_uchastke_22sot._2926665510"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/borskoe/doma_dachi_kottedzhi/dom_45m_na_uchastke_33sot._2577916773"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/syzran/doma_dachi_kottedzhi/dom_384m_na_uchastke_18sot._2927170528"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pohvistnevo/doma_dachi_kottedzhi/dom_50m_na_uchastke_10sot._2902584244"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/chapaevsk/doma_dachi_kottedzhi/dom_80m_na_uchastke_6sot._1781247202"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/podbelsk/doma_dachi_kottedzhi/kottedzh_442m_na_uchastke_42sot._2917343343"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/isakly/doma_dachi_kottedzhi/dom_74m_na_uchastke_5sot._2488994019"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/borskoe/doma_dachi_kottedzhi/dom_60m_na_uchastke_6sot._2666537934"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_krasnyy_yar/doma_dachi_kottedzhi/dom_935m_na_uchastke_22sot._2925712855"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/samarskaya_oblast_krasnyy_yar/doma_dachi_kottedzhi/dom_38m_na_uchastke_30sot._2886489432"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pohvistnevo/doma_dachi_kottedzhi/dom_642m_na_uchastke_27sot._2452834899"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/hvorostyanka/doma_dachi_kottedzhi/dom_37m_na_uchastke_10sot._2701690571"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/chelno-vershiny/doma_dachi_kottedzhi/dom_96m_na_uchastke_23sot._1933878916"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/bolshaya_glushitsa/doma_dachi_kottedzhi/dom_98m_na_uchastke_3sot._2673105998"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/borskoe/doma_dachi_kottedzhi/dom_70m_na_uchastke_623sot._653548054"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/podbelsk/doma_dachi_kottedzhi/dom_82m_na_uchastke_8sot._2545210834"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/timashevo/doma_dachi_kottedzhi/dom_64m_na_uchastke_129sot._2882794411"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/chapaevsk/doma_dachi_kottedzhi/dom_432m_na_uchastke_4sot._2396866779"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pestravka/doma_dachi_kottedzhi/dom_47m_na_uchastke_15sot._2504708646"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/elhovka/doma_dachi_kottedzhi/dom_67m_na_uchastke_40sot._2828171885"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pohvistnevo/doma_dachi_kottedzhi/dom_894m_na_uchastke_145sot._2621171292"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pohvistnevo/doma_dachi_kottedzhi/dom_27m_na_uchastke_50sot._2426737042"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/osinki/doma_dachi_kottedzhi/dom_100m_na_uchastke_6sot._1992243806"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/kinel-cherkassy/doma_dachi_kottedzhi/dom_538m_na_uchastke_8sot._2328359814"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pohvistnevo/doma_dachi_kottedzhi/dom_475m_na_uchastke_68sot._2444203482"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/podbelsk/doma_dachi_kottedzhi/dom_32m_na_uchastke_50sot._2859686589"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/borskoe/doma_dachi_kottedzhi/dom_60m_na_uchastke_34sot._2345779469"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/bolshaya_chernigovka/doma_dachi_kottedzhi/dom_94m_na_uchastke_11sot._2901135433"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/smyshlyaevka/doma_dachi_kottedzhi/dom_90m_na_uchastke_76sot._2670261005"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/isakly/doma_dachi_kottedzhi/dom_475m_na_uchastke_8sot._2917686395"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/kinel-cherkassy/doma_dachi_kottedzhi/dom_45m_na_uchastke_12sot._2800442294"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/smyshlyaevka/doma_dachi_kottedzhi/dom_112m_na_uchastke_10sot._2970708038"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/privolzhe/doma_dachi_kottedzhi/dom_50m_na_uchastke_10sot._2219670773"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/oktyabrsk/doma_dachi_kottedzhi/dom_41m_na_uchastke_8sot._554861708"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/kinel/doma_dachi_kottedzhi/dom_54m_na_uchastke_6sot._2901695792"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/pestravka/doma_dachi_kottedzhi/dom_616m_na_uchastke_7sot._2185946791"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/koshki/doma_dachi_kottedzhi/dom_53m_na_uchastke_14sot._2814788954"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/hvorostyanka/doma_dachi_kottedzhi/dom_50m_na_uchastke_12sot._2562992057"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/podbelsk/doma_dachi_kottedzhi/dom_75m_na_uchastke_35sot._2404259150"
     }
 ]
