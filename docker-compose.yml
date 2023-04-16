@@ -5,6 +5,6 @@ services:
     build: .
     restart: always
     volumes:
-      - myapp:/data/
+      - .:/app
 volumes:
   myapp:
