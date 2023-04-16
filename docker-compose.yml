@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  parser:
+    build: .
+    restart: always
+    volumes:
+      - myapp:/data/
+volumes:
+  myapp:

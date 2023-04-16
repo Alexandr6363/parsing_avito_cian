@@ -1945,5 +1945,11 @@
     },
     {
         "link_of_house": "https://www.avito.ru/hvorostyanka/doma_dachi_kottedzhi/dom_60m_na_uchastke_8sot._2566782345"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/hvorostyanka/doma_dachi_kottedzhi/dom_96m_na_uchastke_2sot._2598430439"
+    },
+    {
+        "link_of_house": "https://www.avito.ru/bogatoe/doma_dachi_kottedzhi/dom_617m_na_uchastke_6sot._2546394650"
     }
 ]

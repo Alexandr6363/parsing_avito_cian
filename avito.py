@@ -1,6 +1,7 @@
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
@@ -19,6 +20,19 @@ CHAT_ID = tokens["chat_id"]
 SEND_URL = f'https://api.telegram.org/bot{TOKEN}/sendMessage'
 
 
+def set_chrome_options() -> Options:
+    """Sets chrome options for Selenium.
+    Chrome options for headless browser is enabled.
+    """
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_prefs = {}
+    chrome_options.experimental_options["prefs"] = chrome_prefs
+    chrome_prefs["profile.default_content_settings"] = {"images": 2}
+    return chrome_options
+
 def avito_scan(driver):
     driver.get(URL)
     sleep(PAUSE_DURATION_SECONDS)
@@ -29,7 +43,7 @@ def avito_scan(driver):
         a = house.find("a").get("href")
         link_house_result = f"https://www.avito.ru{a}"
         data_list.append(link_house_result)
-    write_and_send(data_list, 'data.txt')
+    write_and_send(data_list, 'data/data.txt')
 
 
 
@@ -42,7 +56,7 @@ def cian_scan(driver):
     for house in houses:
         link_house_result = house.get("href")
         data_list.append(link_house_result)
-    write_and_send(data_list, 'data_cian.txt')
+    write_and_send(data_list, 'data/data_cian.txt')
 
 
 def write_and_send(data_list, file):
@@ -68,11 +82,12 @@ def send_list(house):
 
 def main(scan_function):
     try:
-        driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
+        driver = webdriver.Chrome(options=set_chrome_options())
                     #   for windows:
                     # driver = webdriver.Chrome(service=service)            
         scan_function(driver)
     except Exception as e:
+        send_list(e)
         print(e)
     finally:
         time.sleep(1)
@@ -81,7 +96,7 @@ def main(scan_function):
 
 
 if __name__ == '__main__':
-    service = Service(executable_path=ChromeDriverManager().install())
+    # service = Service(executable_path=ChromeDriverManager().install())
     while (True):
         main(avito_scan)
         main(cian_scan)
