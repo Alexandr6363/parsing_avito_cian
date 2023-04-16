@@ -85,5 +85,14 @@
     },
     {
         "link_of_house": "https://samara.cian.ru/sale/suburban/285943398/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/285972190/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/286021743/"
+    },
+    {
+        "link_of_house": "https://samara.cian.ru/sale/suburban/286294079/"
     }
 ]
