@@ -87,7 +87,7 @@ def main(scan_function):
                     # driver = webdriver.Chrome(service=service)            
         scan_function(driver)
     except Exception as e:
-        send_list(e)
+        # send_list(e)
         print(e)
     finally:
         time.sleep(1)
